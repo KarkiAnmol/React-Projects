@@ -15,20 +15,20 @@ function Home(){
                     id="a1"
                     title="TV"
                     price={1200000}
-                    rating={5}
+                    rating={4}
                     image="https://static-01.daraz.com.np/p/6ac5dc7458ef7f3ec53e1c5c8f297ece.jpg"
                 />y
                 <Product
                 id="a2"
                     title="Shoes"
                     price={1400}
-                    rating={5}
+                    rating={3}
                     image="http://cdn.shopify.com/s/files/1/0075/3929/4305/collections/G22_WA_AP_NAV-Shoes.jpg?v=1645999375"/>  
                 <Product
                 id="a3"
                     title="comfort shoe"
                     price={3200}
-                    rating={5}
+                    rating={3}
                     image="https://www.jiomart.com/images/product/330x410/rvuvl6sgeg/oricum-1566-mens-grey-shoes-product-images-rvuvl6sgeg-0-202202271310.jpg"/>
             </div>
             
@@ -37,13 +37,13 @@ function Home(){
             id="2"
                     title="tshirt"
                     price={400}
-                    rating={5}
+                    rating={2}
                     image="https://nepalitshirt.com/wp-content/uploads/2020/02/black-plain-round-neck-t-shirts.jpg"/>
             <Product
             id="2"
                     title="nepali t shirt"
                     price={200}
-                    rating={5}
+                    rating={4}
                     image=" https://www.clothinginnepal.com/image/cache/catalog/t-shirt/nepal-tshirt-11-1000x1000.jpg"/>
             </div>
 
@@ -64,7 +64,7 @@ function Home(){
                 id="2"
                     title="Iphone 14 pro max"
                     price={250000}
-                    rating={5}
+                    rating={4}
                     image="https://www.apple.com/v/iphone-14-pro/c/images/overview/hero/hero_endframe__dtzvajyextyu_large.jpg"/>
             </div>
 

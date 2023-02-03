@@ -9,7 +9,14 @@ const product = ({id,title,price,rating,image}) => {
 
     <p>{title} </p>
     <p className='product_price'>Rs.{price}</p>
-    <div className="product_rating">⭐⭐⭐⭐</div>
+    <div className="product_rating">{
+      Array(rating).
+      fill().
+      map(()=>(
+        <p>⭐</p>
+      ))
+    }
+    </div>
     <img src={image} alt="" />
     <button>Add to Basket</button>
   </div>

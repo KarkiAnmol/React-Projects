@@ -32,6 +32,8 @@
 .product_rating {
   font-size: 16px;
   margin-top: 10px;
+  display: flex;
+  
 }
 .home_img{
     width: 100%;
