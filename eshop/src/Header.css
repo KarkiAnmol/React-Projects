@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header_logo {
+  display: flex;
+  align-items: center;
+}
+
+.header_logoTitle {
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.header_searchBar {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+  position: relative;
+}
+
+.header_searchInput {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.header_searchIcon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.header_nav {
+  display: flex;
+}
+
+.nav_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav_itemLineOne {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.nav_itemLineTwo {
+    font-size: 20px;
+  margin-left: 5px;
+}
+
+.nav_basketCount {
+  background-color: #333;
+  color: #fff;
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.itemBasket {
+  margin-right: 10px;
+}
+input[type='text'] {
+  width: 95%; /* make the input occupy all the available width */
+}
